@@ -10,7 +10,7 @@ MongoClient.connect('mongodb://localhost:27017/node', (err, db) => {
     }
     console.log('Connected to mongodb');
 
-    // db.collection('Todos').insertOne({
+    // db.collection('todo').insertOne({
     //     text: 'something to insert',
     //     completed: false
     // }, (err, result) => {
@@ -22,7 +22,7 @@ MongoClient.connect('mongodb://localhost:27017/node', (err, db) => {
     // });
 
 
-    // db.collection('Users').insertOne({
+    // db.collection('users').insertOne({
     //     name: 'ken',
     //     age: 38,
     //     location: 'livingroom'
